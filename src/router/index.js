@@ -2,8 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import Test from '@/components/Test'
-import Clicker from '@/components/Clicker'
-import Cli from '@/components/Cli'
+import ClickerContainer from '@/components/ClickerContainer'
+import CliContainer from '@/components/CliContainer'
 
 Vue.use(Router)
 
@@ -18,12 +18,12 @@ export default new Router({
     {
       path: '/test/clicker',
       name: 'Clicker',
-      component: Clicker
+      component: ClickerContainer
     },
     {
       path: '/test/cli',
       name: 'Cli',
-      component: Cli
+      component: CliContainer
     },
     {
       path: '/',

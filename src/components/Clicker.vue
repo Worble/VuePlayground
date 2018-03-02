@@ -17,12 +17,6 @@
       </button>
     </div>
   </div>
-  <div>
-    <a href="/test/" v-on:click.prevent="$router.push({ name: 'Test'})">Back to test page</a>
-    <br/>
-    <a href="/" v-on:click.prevent="$router.push({ name: 'HelloWorld'})">Back to home</a>
-    <br/>
-  </div>
 </div>
 </template>
 <script>
